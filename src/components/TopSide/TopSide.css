@@ -1,0 +1,227 @@
+.TopSide {
+  float: right;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.Navbar {
+  display: flex;
+  gap: 1.1rem;
+  align-items: center;
+}
+
+.Welcome {
+  color: #000000;
+  font-weight: 600;
+  line-height: 1rem;
+  margin-right: 23.5rem;
+}
+
+.wel-blue {
+  color: #205eda;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.wel-normal {
+  color: rgba(0, 0, 0, 0.418);
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.Searchbar {
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 5px 0px #083c772f inset, -4px -4px 5px 0px #ffffff inset,
+    4px 4px 5px 0px #083c772f, -4px -4px 5px 0px #ffffff;
+  border-radius: 25px;
+  width: 450px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar-icon {
+  display: flex;
+  align-items: center;
+  margin: 25rem;
+}
+
+.message {
+  color: #205eda;
+  display: flex;
+  font-size: 20px;
+}
+
+.notify-icon {
+  color: #205eda;
+  display: flex;
+  font-size: 20px;
+}
+
+.three-icon {
+  color: #fa7367;
+  font-size: 16px;
+  position: relative;
+  bottom: 4px;
+  right: 14px;
+}
+
+.profile-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 5px 0px #083c772f inset, -4px -4px 5px 0px #ffffff inset,
+    6px 6px 5px 0px #083c772f, -4px -4px 5px 0px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -1rem;
+}
+
+.user-icon {
+  font-size: 25px;
+  color: #205eda;
+}
+
+.Main_Cards {
+  display: flex;
+  gap: 1.1rem;
+  margin-right: 0.2rem;
+}
+
+.card {
+  width: 348.5px;
+  height: 130px;
+  border-radius: 13px;
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 10px 0px #083c772f, -4px -4px 10px 0px #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.card-info {
+  display: flex;
+  gap: 12rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.circle_shape1 {
+  width: 35px;
+  height: 35px;
+  border: 6px solid #205eda;
+  border-radius: 50%;
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 5px 0px #083c772f inset, -4px -4px 5px 0px #ffffff inset,
+    6px 6px 5px 0px #083c772f, -4px -4px 5px 0px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+.dollar-icon {
+  font-size: 25px;
+  color: #205eda;
+}
+
+.data-text {
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  line-height: 1rem;
+  align-items: center;
+  text-align: right;
+}
+
+.text_head {
+  color: #0000006b;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.target_text {
+  color: rgba(0, 0, 0, 0.418);
+  font-weight: 500;
+  font-size: 11px;
+  margin-left: 1.5rem;
+  display: flex;
+  gap: 14rem;
+}
+
+.slide-1 {
+  width: 290px;
+  height: 10px;
+  margin-left: 1.5rem;
+  box-shadow: 0px 6px 5px 0px #083c772f inset, 0px -3px 5px 0px #ffffff inset;
+}
+
+.slide-blue {
+  width: 165px;
+  height: 10px;
+  background-color: #205eda;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 5px 0px #083c772f, -6px -6px 5px 0px #ffffff;
+}
+
+.circle_shape2 {
+  width: 35px;
+  height: 35px;
+  border: 6px solid #55cb8a;
+  border-radius: 50%;
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 5px 0px #083c772f inset, -4px -4px 5px 0px #ffffff inset,
+    6px 6px 5px 0px #083c772f, -4px -4px 5px 0px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+.cart-icon {
+  font-size: 25px;
+  color: #55cb8a;
+}
+
+.slide-green {
+  width: 265px;
+  height: 10px;
+  background-color: #55cb8a;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 5px 0px #083c772f, -6px -6px 5px 0px #ffffff;
+}
+
+.circle_shape3 {
+  width: 35px;
+  height: 35px;
+  border: 6px solid #fa7367;
+  border-radius: 50%;
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 5px 0px #083c772f inset, -4px -4px 5px 0px #ffffff inset,
+    6px 6px 5px 0px #083c772f, -4px -4px 5px 0px #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+.profile-icon {
+  font-size: 25px;
+  color: #fa7367;
+}
+
+.slide-red {
+  width: 165px;
+  height: 10px;
+  background-color: #fa7367;
+  display: flex;
+  align-items: center;
+  box-shadow: 6px 6px 5px 0px #083c772f, -6px -6px 5px 0px #ffffff;
+}

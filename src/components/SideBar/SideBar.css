@@ -1,0 +1,104 @@
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  /* margin-bottom: 3rem; */
+}
+
+.logo {
+  display: flex;
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 10px 0px #083c772f, -4px -4px 10px 0px #ffffff;
+  border-radius: 13px;
+  width: 150px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo span {
+  color: #205eda;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.dashboard {
+  display: flex;
+  background-color: #ebf0f5;
+  border-radius: 13px;
+  width: 150px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 5px 0px #083c772f inset, -4px -4px 5px 0px #ffffff inset,
+    4px 4px 5px 0px #083c772f, -4px -4px 5px 0px #ffffff;
+}
+
+.dash-icon {
+  display: flex;
+  font-size: 20px;
+  color: #205eda;
+}
+
+.dashboard span {
+  color: #205eda;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.menu {
+  background-color: #ebf0f5;
+  box-shadow: 4px 4px 10px 0px #083c772f, -4px -4px 10px 0px #ffffff;
+  border-radius: 13px;
+  width: 150px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.418);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.menuItem span {
+  margin-left: 10px;
+}
+
+.menu-icons {
+  display: flex;
+  margin-left: 1.7rem;
+}
+
+.no-icon {
+  position: relative;
+  bottom: 17.3rem;
+  left: 5.7rem;
+  color: #55cb8a;
+}
+
+.new-icon {
+  width: 25px;
+  height: 13px;
+  border-radius: 10px;
+  background-color: #55cb8a;
+  position: relative;
+  bottom: 7.3rem;
+  left: 6.3rem;
+}
+
+.new-icon span {
+  font-size: 7px;
+  font-weight: 800;
+  position: relative;
+  bottom: 9px;
+  left: 5px;
+  color: white;
+}
